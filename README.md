@@ -4,7 +4,7 @@ Welcome to my Data Science Portfolio! This repository showcases a collection of 
 
 ## Table of Contents
 
-- [Project 1: Mushroom Classification (R)](# Project 1: Mushroom Classification (R))
+- [Project 1: Mushroom Classification (R)](#project-1-mushroom-classification-r)
 - [Project 2: Sales Forecasting Model (Python)](#project-2-sales-forecasting-model-python)
 - [Project 3: Customer Behavior Analysis (Python)](#project-3-customer-behavior-analysis-python)
 - [Project 4: Brain Tumor Detection (Python)](#project-4-brain-tumor-detection-python)
