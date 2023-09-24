@@ -108,5 +108,5 @@ For detailed results of each model, including performance metrics and visualizat
 
 This project demonstrates the application of various machine learning models for mushroom classification. Each model's performance and visualizations are provided to aid in understanding the data and choosing the most appropriate model for classification.
 
-For any questions or issues, feel free to open an issue or contact [Your Name].
+For any questions or issues, feel free to open an issue or contact me with my email.
 
