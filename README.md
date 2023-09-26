@@ -6,7 +6,7 @@ Welcome to my Data Science Portfolio! This repository showcases a collection of 
 
 - [Project 1: Mushroom Classification (R)](#project-1-mushroom-classification-r)
 - [Project 2: Sales Forecasting Model (Python)](#project-2-sales-forecasting-model-python)
-- [Project 3: Customer Behavior Analysis (Excel, R, Python, Power BI and Tableau)](#project-3-customer-behavior-analysis-python)
+- [Project 3: Customer Behavior Analysis (Excel, R, Python, PowerBI and Tableau)](#project-3-customer-behavior-analysis-Excel-R-Python-Power-BI-Tableau)
 - [Project 4: Brain Tumor Detection (Python)](#project-4-brain-tumor-detection-python)
 - [Project 5: Human Activity Recognition (Python)](#project-5-human-activity-recognition-python)
 - [Project 6: Heartbeat Classification (Python)](#project-6-heartbeat-classification-python)
