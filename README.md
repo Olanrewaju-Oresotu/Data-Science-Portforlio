@@ -6,7 +6,7 @@ Welcome to my Data Science Portfolio! This repository showcases a collection of 
 
 - [Project 1: Mushroom Classification (R)](#project-1-mushroom-classification-r)
 - [Project 2: Sales Forecasting Model (Python)](#project-2-sales-forecasting-model-python)
-- [Project 3: Customer Behavior Analysis (Python)](#project-3-customer-behavior-analysis-python)
+- [Project 3: Customer Behavior Analysis (Excel, R, Python)](#project-3-customer-behavior-analysis-python)
 - [Project 4: Brain Tumor Detection (Python)](#project-4-brain-tumor-detection-python)
 - [Project 5: Human Activity Recognition (Python)](#project-5-human-activity-recognition-python)
 - [Project 6: Heartbeat Classification (Python)](#project-6-heartbeat-classification-python)
@@ -19,7 +19,7 @@ Welcome to my Data Science Portfolio! This repository showcases a collection of 
 
 ## Project 1: Mushroom Classification (R)
 
-**Description:** Implemented a machine learning model in R to classify mushrooms as edible or poisonous based on various features. Explored data visualization, data cleaning, and feature engineering techniques before training the model.
+**Description:** Implemented a machine learning model in R to classify mushrooms as edible or poisonous based on various features. I explored data visualization, data cleaning, and feature engineering techniques before training and testing the classification model.
 
 **Tools:** R, Tidyverse, ggplot2, Rpart, ModelMetrics, XGBoost
 
@@ -29,9 +29,9 @@ Welcome to my Data Science Portfolio! This repository showcases a collection of 
 
 **Tools:** Python, Pandas, Scikit-Learn
 
-## Project 3: Customer Behavior Analysis (Python)
+## Project 3: Customer Behavior Analysis (Excel, R, Python, Power BI and Tableau)
 
-**Description:** Analyzed customer behavior data for an e-commerce dataset. Identified key insights related to customer preferences, purchase patterns, and product recommendations. Provided recommendations to improve customer engagement, retention, resulting in a 10% increase in customer satisfaction.
+**Description:** Analyzed customer behavior data for an e-commerce dataset. Identified key insights related to customer segmentation based on their country, Reviews, preferences, purchase patterns, and product recommendations. With these, I provided recommendations to improve customer engagement, retention, and increase in customer satisfaction.
 
 **Tools:** Python, Pandas, Matplotlib, Seaborn
 
