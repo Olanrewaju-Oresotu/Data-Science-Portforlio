@@ -1,3 +1,23 @@
+
+# Crime Analysis and Forecasting
+
+## Introduction
+
+Crime is a significant social and economic issue that impacts both individual well-being and a nation's development (Bogomolov et al., 2015). The nature of criminal activities varies across different societies and cultures (Brown, 1982). Research has shown that a large portion of crime in Greater London is concentrated in specific neighborhoods (Chainey et al., 2008). In recent years, professionals in crime analysis have emphasized the importance of visual analysis for crime prevention, prediction, and police operations (Markovic, 2007).
+
+In this analysis, we will use a dataset of Street-Level Crime Data from the UK Home Office, which includes crime categories and latitude/longitude coordinates. The objectives are as follows:
+
+1. Initialize Apache Spark for data processing.
+2. Filter crimes related to violence, substance addiction, and firearm possession.
+3. Explore a subset of the dataset for insights on violent crimes using Spark DataFrames and visualize the findings.
+4. Conduct a time series trend analysis of violent crimes.
+5. Determine which subset of the dataset has the highest rate of firearm-related incidents per population.
+6. Develop a statistical model to predict the likelihood of future firearm and drug crimes.
+7. Analyze the advantages, disadvantages, and limitations of the employed methodologies.
+
+The technical approach involves using Spark for data extraction and processing, Pandas for trend analysis and visualization, and machine learning models for prediction.
+
+```python
 # Importing libraries
 import numpy as np
 import pandas as pd
@@ -106,7 +126,9 @@ crimebymonth = crimebymonth.orderBy('month_of_year')
 crimebymonthpd = crimebymonth.toPandas()
 
 # Plotting the distribution of violent crimes by month
-plt.figure(figsize=(15, 6))
+plt
+
+.figure(figsize=(15, 6))
 crimebymonthpd.plot.bar(x='month_of_year', y='Violent Crimes count', label='Number of Violent Crimes',
                         title='Number of Crime Vs Month')
 plt.ylabel('Violent Crimes count')
@@ -146,6 +168,18 @@ plt.legend()
 plt.grid(True)
 plt.show()
 
+
+## Findings
+
+1. **Crime Types**: We filtered the dataset to focus on three specific crime types: Violent crimes, Drugs, and Possession of weapons.
+
+2. **Location Analysis**: We analyzed the dataset to determine which locations had the highest counts of violent crimes.
+
+3. **Time Series Analysis**: We performed a time series analysis on violent crimes, finding that there is some seasonality, with certain months having higher crime counts. The Augmented Dickey-Fuller Test confirmed that the time series data is not stationary.
+
+4. **Forecasting**: We built a linear regression model to forecast future violent crimes. The model indicates an increasing trend in violent crimes.
+
+    
 # Conclusion and Recommendations
 print("Conclusions:")
 print("- The analysis focused on violent crimes, drugs, and possession of weapons.")
@@ -161,3 +195,4 @@ print("- Predictive models can be enhanced with additional data sources, such as
 
 # Stopping the Spark session
 spark.stop()
+
