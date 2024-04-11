@@ -1,4 +1,4 @@
-# Data Science Portfolio
+# Data Science Projects
 
 Welcome to my Data Science Portfolio! This repository showcases a collection of data science projects that span various domains and utilize a range of tools and technologies, including R, Python, Apache Spark, and SQL. These projects demonstrate my skills in data analysis, machine learning, and data-driven decision-making.
 
